@@ -1,0 +1,312 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\teklemariam.weldehaw\\OneDrive - Bouvet Norge AS\\Documents\\Practicing Programming\\DDD-2\\API\\API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\teklemariam.weldehaw\\OneDrive - Bouvet Norge AS\\Documents\\Practicing Programming\\DDD-2\\API\\API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\teklemariam.weldehaw\\OneDrive - Bouvet Norge AS\\Documents\\Practicing Programming\\DDD-2\\API\\API.csproj",
+        "projectName": "API",
+        "projectPath": "C:\\Users\\teklemariam.weldehaw\\OneDrive - Bouvet Norge AS\\Documents\\Practicing Programming\\DDD-2\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\teklemariam.weldehaw\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\teklemariam.weldehaw\\OneDrive - Bouvet Norge AS\\Documents\\Practicing Programming\\DDD-2\\API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\teklemariam.weldehaw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/bouvetasa/af17e44f-d65b-4734-b7a1-683afe8874e4/_packaging/LDR/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\teklemariam.weldehaw\\OneDrive - Bouvet Norge AS\\Documents\\Practicing Programming\\DDD-2\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Users\\teklemariam.weldehaw\\OneDrive - Bouvet Norge AS\\Documents\\Practicing Programming\\DDD-2\\Contracts\\Contracts.csproj"
+              },
+              "C:\\Users\\teklemariam.weldehaw\\OneDrive - Bouvet Norge AS\\Documents\\Practicing Programming\\DDD-2\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\teklemariam.weldehaw\\OneDrive - Bouvet Norge AS\\Documents\\Practicing Programming\\DDD-2\\Entities\\Entities.csproj"
+              },
+              "C:\\Users\\teklemariam.weldehaw\\OneDrive - Bouvet Norge AS\\Documents\\Practicing Programming\\DDD-2\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\teklemariam.weldehaw\\OneDrive - Bouvet Norge AS\\Documents\\Practicing Programming\\DDD-2\\Repository\\Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Cosmos": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\teklemariam.weldehaw\\OneDrive - Bouvet Norge AS\\Documents\\Practicing Programming\\DDD-2\\Contracts\\Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\teklemariam.weldehaw\\OneDrive - Bouvet Norge AS\\Documents\\Practicing Programming\\DDD-2\\Contracts\\Contracts.csproj",
+        "projectName": "Contracts",
+        "projectPath": "C:\\Users\\teklemariam.weldehaw\\OneDrive - Bouvet Norge AS\\Documents\\Practicing Programming\\DDD-2\\Contracts\\Contracts.csproj",
+        "packagesPath": "C:\\Users\\teklemariam.weldehaw\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\teklemariam.weldehaw\\OneDrive - Bouvet Norge AS\\Documents\\Practicing Programming\\DDD-2\\Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\teklemariam.weldehaw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/bouvetasa/af17e44f-d65b-4734-b7a1-683afe8874e4/_packaging/LDR/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\teklemariam.weldehaw\\OneDrive - Bouvet Norge AS\\Documents\\Practicing Programming\\DDD-2\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\teklemariam.weldehaw\\OneDrive - Bouvet Norge AS\\Documents\\Practicing Programming\\DDD-2\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\teklemariam.weldehaw\\OneDrive - Bouvet Norge AS\\Documents\\Practicing Programming\\DDD-2\\Entities\\Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\teklemariam.weldehaw\\OneDrive - Bouvet Norge AS\\Documents\\Practicing Programming\\DDD-2\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "C:\\Users\\teklemariam.weldehaw\\OneDrive - Bouvet Norge AS\\Documents\\Practicing Programming\\DDD-2\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\teklemariam.weldehaw\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\teklemariam.weldehaw\\OneDrive - Bouvet Norge AS\\Documents\\Practicing Programming\\DDD-2\\Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\teklemariam.weldehaw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/bouvetasa/af17e44f-d65b-4734-b7a1-683afe8874e4/_packaging/LDR/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Cosmos": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\teklemariam.weldehaw\\OneDrive - Bouvet Norge AS\\Documents\\Practicing Programming\\DDD-2\\Repository\\Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\teklemariam.weldehaw\\OneDrive - Bouvet Norge AS\\Documents\\Practicing Programming\\DDD-2\\Repository\\Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "C:\\Users\\teklemariam.weldehaw\\OneDrive - Bouvet Norge AS\\Documents\\Practicing Programming\\DDD-2\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\teklemariam.weldehaw\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\teklemariam.weldehaw\\OneDrive - Bouvet Norge AS\\Documents\\Practicing Programming\\DDD-2\\Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\teklemariam.weldehaw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/bouvetasa/af17e44f-d65b-4734-b7a1-683afe8874e4/_packaging/LDR/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\teklemariam.weldehaw\\OneDrive - Bouvet Norge AS\\Documents\\Practicing Programming\\DDD-2\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Users\\teklemariam.weldehaw\\OneDrive - Bouvet Norge AS\\Documents\\Practicing Programming\\DDD-2\\Contracts\\Contracts.csproj"
+              },
+              "C:\\Users\\teklemariam.weldehaw\\OneDrive - Bouvet Norge AS\\Documents\\Practicing Programming\\DDD-2\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\teklemariam.weldehaw\\OneDrive - Bouvet Norge AS\\Documents\\Practicing Programming\\DDD-2\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
