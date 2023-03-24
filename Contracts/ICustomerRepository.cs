@@ -2,11 +2,9 @@
 
 namespace Contracts
 {
-    public interface ICustomerRepository : IRepositoryBas<Customer>
+    public interface ICustomerRepository
     {
+        IEnumerable<Customer> GetAllCustomers();
 
-        Task<IEnumerable<Customer>> GetAllOwnersAsync();
-        Task<Customer> GetOwnerByIdAsync(Guid ownerId);
-        Customer GetOwnerWithDetails(Guid ownerId);
     }
 }

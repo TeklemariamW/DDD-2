@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Contracts
 {
-    public interface IOrderRepository : IRepositoryBas<Order>
+    public interface IOrderRepository 
     {
     }
 }

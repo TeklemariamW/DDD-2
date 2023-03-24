@@ -1,4 +1,6 @@
+using Contracts;
 using Microsoft.AspNetCore.Mvc;
+using Repository;
 
 namespace API.Controllers
 {
@@ -10,13 +12,15 @@ namespace API.Controllers
         {
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     };
-
+        private IRepositoryWrapper _repository;
         private readonly ILogger<WeatherForecastController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, RepositoryWrapper repository)
         {
+            _repository = repository;
             _logger = logger;
         }
+
 
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()

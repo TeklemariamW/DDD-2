@@ -1,4 +1,7 @@
-﻿namespace API.Extensions
+﻿using Contracts;
+using Repository;
+
+namespace API.Extensions
 {
     public static class ServiceExtensions
     {
@@ -18,6 +21,10 @@
             {
 
             });
+        }
+        public static void ConfigureRepositoryWrapper(this IServiceCollection services)
+        {
+            services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
         }
     }
 }

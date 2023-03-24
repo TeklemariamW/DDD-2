@@ -8,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.ConfigureCors();
 builder.Services.ConfigureIISIntegration();
-
+builder.Services.ConfigureRepositoryWrapper();
 
 //builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 //    .AddMicrosoftIdentityWebApi(builder.Configuration.GetSection("AzureAd"));
@@ -20,8 +20,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var connectionString = builder.Configuration.GetValue<string>("ConnectionString:CosmosDb:AccountKey");
-//var dbName = "WdnoTestDB";
-var dbName = builder.Configuration.GetValue<string>("ConnectionString:CosmosDb:DbName"); ;
+var dbName = builder.Configuration.GetValue<string>("ConnectionString:CosmosDb:DbName");
+
 builder.Services.AddDbContext<RepositoryContext>(options =>
         options.UseCosmos(
             connectionString,
@@ -56,4 +56,6 @@ app.MapControllers();
 
 app.Run();
 
-//Creating a Repository Wrapper
+
+// https://code-maze.com/net-core-web-development-part5/
+// GetAllCustomers GET Request in .NET Core

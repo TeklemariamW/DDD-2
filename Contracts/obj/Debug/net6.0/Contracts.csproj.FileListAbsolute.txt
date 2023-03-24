@@ -10,3 +10,6 @@ C:\Users\teklemariam.weldehaw\OneDrive - Bouvet Norge AS\Documents\Practicing Pr
 C:\Users\teklemariam.weldehaw\OneDrive - Bouvet Norge AS\Documents\Practicing Programming\DDD-2\Contracts\obj\Debug\net6.0\refint\Contracts.dll
 C:\Users\teklemariam.weldehaw\OneDrive - Bouvet Norge AS\Documents\Practicing Programming\DDD-2\Contracts\obj\Debug\net6.0\Contracts.pdb
 C:\Users\teklemariam.weldehaw\OneDrive - Bouvet Norge AS\Documents\Practicing Programming\DDD-2\Contracts\obj\Debug\net6.0\ref\Contracts.dll
+C:\Users\teklemariam.weldehaw\OneDrive - Bouvet Norge AS\Documents\Practicing Programming\DDD-2\Contracts\bin\Debug\net6.0\Entities.dll
+C:\Users\teklemariam.weldehaw\OneDrive - Bouvet Norge AS\Documents\Practicing Programming\DDD-2\Contracts\bin\Debug\net6.0\Entities.pdb
+C:\Users\teklemariam.weldehaw\OneDrive - Bouvet Norge AS\Documents\Practicing Programming\DDD-2\Contracts\obj\Debug\net6.0\Contracts.csproj.CopyComplete
