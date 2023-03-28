@@ -58,4 +58,3 @@ app.Run();
 
 
 // https://code-maze.com/net-core-web-development-part5/
-// GetAllCustomers GET Request in .NET Core

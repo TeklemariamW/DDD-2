@@ -1,4 +1,5 @@
 ﻿using Contracts;
+using Entities.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
@@ -13,7 +14,8 @@ namespace API.Controllers
             _repository = repository;
         }
         [HttpGet]
-        public IActionResult GetAllCustomers()
+        [ProducesResponseType(typeof(IEnumerable<Customer>), StatusCodes.Status200OK)]
+        public IActionResult GetCustomers([FromBody] CustomerParameters customerParameters)
         {
             try
             {
@@ -22,7 +24,6 @@ namespace API.Controllers
             }
             catch (Exception ex)
             {
-
                 return StatusCode(500, ex.Message);
             }
         }
