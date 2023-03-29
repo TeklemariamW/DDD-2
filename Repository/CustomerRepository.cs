@@ -10,12 +10,19 @@ namespace Repository
         {
         }
 
-        public IEnumerable<Customer> GetAllCustomers(CustomerParameters customerParameters)
+        //public IEnumerable<Customer> GetAllCustomers(CustomerParameters customerParameters)
+        //{
+        //    return FindAll()
+        //        .OrderBy(x => x.CustomerId)
+        //        .Skip((customerParameters.PageNumber - 1) * customerParameters.PageSize)
+        //        .Take(customerParameters.PageSize)
+        //        .ToList();
+        //}
+        public PagedList<Customer> GetAllCustomers(CustomerParameters customerParameters)
         {
-            return FindAll().OrderBy(x => x.CustomerId)
-                .Skip((customerParameters.PageNumber - 1) * customerParameters.PageSize)
-                .Take(customerParameters.PageSize)
-                .ToList();
+            return PagedList<Customer>.ToPagedList(FindAll().OrderBy(id => id.CustomerId),
+                customerParameters.PageNumber,
+                customerParameters.PageSize);
         }
     }
 }
