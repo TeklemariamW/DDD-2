@@ -4,7 +4,8 @@ namespace Contracts
 {
     public interface ICustomerRepository
     {
-        IEnumerable<Customer> GetAllCustomers();
+        //IEnumerable<Customer> GetAllCustomers(CustomerParameters customerParameters);
+        PagedList<Customer> GetAllCustomers(CustomerParameters customerParameters);
 
     }
 }
