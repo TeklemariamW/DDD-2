@@ -1,4 +1,6 @@
-﻿using Contracts;
+﻿using AutoMapper;
+using Contracts;
+using Entities.DTOs;
 using Entities.Models;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -10,9 +12,11 @@ namespace API.Controllers
     public class CustomersController : ControllerBase
     {
         private readonly IRepositoryWrapper _repository;
-        public CustomersController(IRepositoryWrapper repository)
+        private readonly IMapper _mapper;
+        public CustomersController(IRepositoryWrapper repository, IMapper mapper)
         {
             _repository = repository;
+            _mapper = mapper;
         }
         [HttpGet]
         [ProducesResponseType(typeof(IEnumerable<Customer>), StatusCodes.Status200OK)]
@@ -39,7 +43,29 @@ namespace API.Controllers
 
                 Response.Headers.Add("X-Pagination", JsonConvert.SerializeObject(metadata));
 
-                return Ok(customers);
+                var customersResult = _mapper.Map<IEnumerable<CustomerDto>>(customers);
+
+                return Ok(customersResult);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
+        }
+
+        [HttpGet("{id}")]
+        public IActionResult GetCustomerById(string id)
+        {
+            try
+            {
+                var customer = _repository.Customer.GetCustomerById(id);
+                if (customer == null)
+                    return NotFound();
+                else
+                {
+                    var customerResult = _mapper.Map<CustomerDto>(customer);
+                    return Ok(customerResult);
+                }
             }
             catch (Exception ex)
             {

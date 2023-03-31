@@ -27,6 +27,8 @@ builder.Services.AddSwaggerGen();
 //            connectionString,
 //            dbName));
 
+builder.Services.AddAutoMapper(typeof(Program));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -62,3 +64,5 @@ app.Run();
 
 
 // https://code-maze.com/net-core-web-development-part5/
+//https://code-maze.com/net-core-web-development-part5/ 
+//DTO

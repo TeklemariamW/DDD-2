@@ -6,6 +6,7 @@ namespace Contracts
     {
         //IEnumerable<Customer> GetAllCustomers(CustomerParameters customerParameters);
         PagedList<Customer> GetAllCustomers(CustomerParameters customerParameters);
+        Customer GetCustomerById(string Id);
 
     }
 }

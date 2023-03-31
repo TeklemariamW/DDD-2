@@ -24,5 +24,11 @@ namespace Repository
                 customerParameters.PageNumber,
                 customerParameters.PageSize);
         }
+
+        public Customer GetCustomerById(string Id)
+        {
+            return FindByCondition(customer => customer.CustomerId == Id)
+                 .FirstOrDefault();
+        }
     }
 }
