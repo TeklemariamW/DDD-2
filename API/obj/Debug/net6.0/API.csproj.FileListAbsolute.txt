@@ -71,3 +71,5 @@ C:\Users\teklemariam.weldehaw\OneDrive - Bouvet Norge AS\Documents\Practicing Pr
 C:\Users\teklemariam.weldehaw\OneDrive - Bouvet Norge AS\Documents\Practicing Programming\DDD-2\API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
 C:\Users\teklemariam.weldehaw\OneDrive - Bouvet Norge AS\Documents\Practicing Programming\DDD-2\API\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\Users\teklemariam.weldehaw\OneDrive - Bouvet Norge AS\Documents\Practicing Programming\DDD-2\API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\teklemariam.weldehaw\OneDrive - Bouvet Norge AS\Documents\Practicing Programming\DDD-2\API\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\teklemariam.weldehaw\OneDrive - Bouvet Norge AS\Documents\Practicing Programming\DDD-2\API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
