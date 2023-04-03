@@ -53,7 +53,7 @@ namespace API.Controllers
             }
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("{id}", Name = "CustomerById")]
         public IActionResult GetCustomerById(string id)
         {
             try

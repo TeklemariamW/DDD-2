@@ -1,6 +1,7 @@
 ﻿using Contracts;
 using Entities;
 using Entities.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Repository
 {
@@ -29,6 +30,11 @@ namespace Repository
         {
             return FindByCondition(customer => customer.CustomerId == Id)
                  .FirstOrDefault();
+        }
+        public Customer GetCustomerWithDetail(string Id)
+        {
+            return FindByCondition(customer => customer.CustomerId.Equals(Id))
+                .FirstOrDefault();
         }
     }
 }
